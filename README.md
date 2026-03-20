@@ -1,12 +1,12 @@
 
 
-A ClI tool to time your task, categorise them into types and write notes relating to it. 
+A ClI tool to time your tasks, categorise them into types and write notes relating to them. 
 
-The notes get stored in this format
+The notes get stored in this format based on the given base_directory
 
 ```base_directory/year/month/taskname.txt```
 
-based on the given base_directory of your choice 
+
 
 Steps to run 
 1)
@@ -21,9 +21,7 @@ Enter the base directory where you want to store the notes
 ```bash
 hour start
 ```
- Enter task name and type
- Start typing notes
- End session with:
+ Enter task name and type, start typing notes and end session with ':end'
 
 ```bash
 :end
@@ -38,7 +36,7 @@ base_directory/Year/Month/taskname+uniquestring
 ```bash
 hour report
 ```
-This will give you total time logged, tasks worked on by frequency, Time spent by the type of tasks for the last 7 days. By default the timerange is last 7 days but Daterange can be given to be specific in the below format  
+This will give you total time logged, tasks worked on by frequency, Time spent by the type of tasks for the last 7 days. By default the timerange is last 7 days but Daterange can be given in the below format to filter dates.  
 
 ```bash
 hour report YYYY-MM-DD YYYY-MM-DD
