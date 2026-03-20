@@ -9,13 +9,15 @@ The notes get stored in this format
 based on the given base_directory of your choice 
 
 Steps to run 
-1.
+1)
+
 ```bash
 hour setup
 ```
 Enter the base directory where you want to store the notes 
 
-2.
+2)
+
 ```bash
 hour start
 ```
@@ -31,7 +33,8 @@ The notes will be store in the base directory in this format
 base_directory/Year/Month/taskname+uniquestring
 
 
-3.
+3)
+
 ```bash
 hour report
 ```
@@ -60,7 +63,7 @@ Build from Source
 go build -o hour.exe
 ```
 
-## 📁 File Structure
+File Structure
 
 ```
 <base_path>/
